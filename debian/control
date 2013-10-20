@@ -1,0 +1,12 @@
+Source: upaas-router
+Maintainer: Łukasz Mierzwa <l.mierzwa@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.4
+
+Package: upaas-router
+Architecture: all
+Depends: ${misc:Depends}, uwsgi-core (>= 1.9.17), uwsgi-emperor (>= 1.9.17), uwsgi-plugin-fastrouter (>= 1.9.17)
+Description: uPaaS router config files
+
