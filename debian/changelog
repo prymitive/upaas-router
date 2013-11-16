@@ -1,3 +1,9 @@
+upaas-router (0.1.0-2) precise; urgency=low
+
+  * Updated dependencies for 0.2
+
+ -- Łukasz Mierzwa <l.mierzwa@gmail.com>  Sat, 16 Nov 2013 14:04:50 +0100
+
 upaas-router (0.1.0-1) precise; urgency=low
 
   * Initial release
