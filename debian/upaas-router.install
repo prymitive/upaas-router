@@ -1,2 +1,2 @@
 nginx/* etc/nginx/sites-enabled/
-uwsgi/* etc/uwsgi-emperor/vassals/
+uwsgi/* etc/

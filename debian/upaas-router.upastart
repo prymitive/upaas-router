@@ -1,0 +1,6 @@
+description "uWSGI FastRouter for uPaaS"
+
+start on runlevel [2345]
+stop on runlevel [06]
+
+exec uwsgi --ini /etc/upaas-router.ini
