@@ -2,7 +2,7 @@ upaas-router (0.2.1-1) precise; urgency=low
 
   * Run as www-data instead of root
 
- -- Łukasz Mierzwa <prymitive@msi>  Fri, 07 Mar 2014 18:47:40 +0100
+ -- Łukasz Mierzwa <l.mierzwa@gmail.com>  Fri, 07 Mar 2014 18:47:40 +0100
 
 upaas-router (0.2.0-1) precise; urgency=low
 
