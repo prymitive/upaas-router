@@ -8,6 +8,6 @@ server {
         uwsgi_param REDIRECT_STATUS 200;
         uwsgi_param UWSGI_FASTROUTER_KEY $host;
         uwsgi_param SCRIPT_NAME "";
-        uwsgi_pass  unix:///var/run/upaas-router.socket;
+        uwsgi_pass  unix:///run/upaas-router/fastrouter.socket;
     }
 }
