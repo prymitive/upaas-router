@@ -1,3 +1,9 @@
+upaas-router (0.2.3-1) precise; urgency=low
+
+  * Don't fail if directory already exists
+
+ -- Łukasz Mierzwa <l.mierzwa@gmail.com>  Sun, 09 Mar 2014 13:49:51 +0100
+
 upaas-router (0.2.2-1) precise; urgency=low
 
   * Fixed socket directory creation
