@@ -8,4 +8,4 @@ pre-start script
     chown www-data:www-data /run/upaas-router
 end script
 
-exec uwsgi --ini /etc/upaas-router.ini
+exec uwsgi --ini /etc/upaas/upaas-router.ini
