@@ -1,3 +1,9 @@
+upaas-router (0.3.1-1) precise; urgency=low
+
+  * Fixed build
+
+ -- Łukasz Mierzwa <l.mierzwa@gmail.com>  Sun, 30 Mar 2014 13:30:07 +0200
+
 upaas-router (0.3.0-1) precise; urgency=low
 
   * Drop nginx, use only uWSGI as HTTP/HTTPS frontend
