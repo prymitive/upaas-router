@@ -8,4 +8,6 @@ pre-start script
     chown www-data:www-data /run/upaas-router
 end script
 
+limit nofile 100000 100000
+
 exec uwsgi --ini /etc/upaas/upaas-router.ini
