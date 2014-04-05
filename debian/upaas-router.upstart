@@ -3,11 +3,6 @@ description "uWSGI FastRouter for uPaaS"
 start on runlevel [2345]
 stop on runlevel [06]
 
-pre-start script
-    mkdir -p /run/upaas-router
-    chown www-data:www-data /run/upaas-router
-end script
-
 limit nofile 100000 100000
 
 exec uwsgi --ini /etc/upaas/upaas-router.ini
