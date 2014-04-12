@@ -7,6 +7,6 @@ Standards-Version: 3.8.4
 
 Package: upaas-router
 Architecture: all
-Depends: ${misc:Depends}, uwsgi-core (>= 2.0.3),
+Depends: ${misc:Depends}, uwsgi-core (>= 2.0.3), ssl-cert
 Description: uPaaS router config files
 
