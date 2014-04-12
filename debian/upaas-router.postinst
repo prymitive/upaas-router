@@ -14,6 +14,7 @@ case "$1" in
             make-ssl-cert generate-default-snakeoil
         fi
         if test ! -e /etc/upaas/ssl/server.crt || test ! -e /etc/upaas/ssl/server.key ; then
+            mkdir -p /etc/upaas/ssl
             ln -s /etc/ssl/certs/ssl-cert-snakeoil.pem /etc/upaas/ssl/server.crt
             ln -s /etc/ssl/certs/ssl-cert-snakeoil.key /etc/upaas/ssl/server.key
         fi
