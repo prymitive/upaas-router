@@ -1,3 +1,9 @@
+upaas-router (0.3.4-1) precise; urgency=low
+
+  * Create directory for certificates if missing
+
+ -- Łukasz Mierzwa <l.mierzwa@gmail.com>  Sat, 12 Apr 2014 15:13:39 +0200
+
 upaas-router (0.3.3-1) precise; urgency=low
 
   * Generate SSL certificates using ssl-cert wrapper
