@@ -1,6 +1,6 @@
 Source: upaas-router
 Maintainer: Łukasz Mierzwa <l.mierzwa@gmail.com>
-Section: python
+Section: web
 Priority: optional
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.4
