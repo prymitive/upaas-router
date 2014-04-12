@@ -15,8 +15,8 @@ case "$1" in
         fi
         if test ! -e /etc/upaas/ssl/server.crt || test ! -e /etc/upaas/ssl/server.key ; then
             mkdir -p /etc/upaas/ssl
-            ln -s /etc/ssl/certs/ssl-cert-snakeoil.pem /etc/upaas/ssl/server.crt
-            ln -s /etc/ssl/certs/ssl-cert-snakeoil.key /etc/upaas/ssl/server.key
+            ln -sf /etc/ssl/certs/ssl-cert-snakeoil.pem /etc/upaas/ssl/server.crt
+            ln -sf /etc/ssl/private/ssl-cert-snakeoil.key /etc/upaas/ssl/server.key
         fi
     ;;
 
